@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(void)
+{
+	int dan, i, j = 1;
+	printf("Enter your dan : ");
+	scanf("%d", &dan);
+	while( j <= dan) {
+		while(i <= 9) {
+			printf("%d * %d = %d\n", dan, i, dan * i);
+			i++;
+		}
+		j++;
+	}
+	return 0;
+}
